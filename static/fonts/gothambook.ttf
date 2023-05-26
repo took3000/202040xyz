@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://bizihu.com/ -->
+<html lang="en">
+    <head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    
+    <title>
+        
+    
+        壁纸湖网-为壁纸控攒宝藏
+    
+
+    </title>
+    
+    <meta http-equiv="Pragma" content="no-cache" />  
+    
+    
+    <meta name="keywords" content="壁纸湖,壁纸湖网,视觉壁纸,优质壁纸,风景壁纸,插画壁纸,小姐姐壁纸,二次元壁纸"> 
+    <meta name="description" content="壁纸湖，为壁纸控们挖掘宝藏手机壁纸。壁纸采集，优质壁纸获取，时刻follow最新的手机壁纸。壁纸湖唯一官网，没有APP">
+    
+    
+    
+    <!-- 引入不蒜子计数 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    
+    <link rel="shortcut icon" href="./fliee/ico.png" type="image/x-icon" title="百度搜索">
+    <link rel="stylesheet" href="./fliee/normalize.css?t=666">
+    <link rel="stylesheet" href="./fliee/bootstrap.min.css?t=666">
+    <link rel="stylesheet" href="./fliee/spop.min.css?t=666">
+    <link rel="stylesheet" href="./fliee/animate.css?t=666">
+    <link rel="stylesheet" href="./fliee/layout.css?t=666">
+    
+    
+
+
+
+    
+    
+    
+    
+    
+<!--    
+<script>    
+    
+    //判断是否为Trident内核浏览器(IE等)函数
+function browserIsIe() {
+    if (!!window.ActiveXObject || "ActiveXObject" in window){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+//创建iframe并赋值的函数,传入参数为图片的src属性值.
+function createIframe(imgSrc) {
+    //如果隐藏的iframe不存在则创建
+    if ($("#IframeReportImg").length === 0){
+        $('<iframe style="display:none;" id="IframeReportImg" name="IframeReportImg" onload="downloadImg();" width="0" height="0" src="about:blank"></iframe>').appendTo("body");
+    }
+    //iframe的src属性如不指向图片地址,则手动修改,加载图片
+    if ($('#IframeReportImg').attr("src") != imgSrc) {
+        $('#IframeReportImg').attr("src",imgSrc);
+    } else {
+        //如指向图片地址,直接调用下载方法
+        downloadImg();
+    }
+}
+//下载图片的函数
+function downloadImg() {
+    //iframe的src属性不为空,调用execCommand(),保存图片
+    if ($('#IframeReportImg').src != "about:blank") {
+        window.frames["IframeReportImg"].document.execCommand("SaveAs");
+    }
+}
+//接下来进行事件绑定
+var aBtn = $(".box .box-download-icon");
+if (browserIsIe()) {
+    //是ie等,绑定事件
+    aBtn.on("click", function() {
+        var imgSrc = $(this).siblings("img").attr("src");
+        //调用创建iframe的函数
+        createIframe(imgSrc);
+    });
+} else {
+    aBtn.each(function(i,v){
+    //支持download,添加属性.
+    var imgSrc = $(v).siblings("img").attr("src");
+    $(v).attr("download",imgSrc);
+    $(v).attr("href",imgSrc);
+    })
+}
+    
+</script>    
+   --> 
+    
+    <style>
+    .crisp-client .crisp-1rjpbb7 .crisp-1rf4xdh a.crisp-kquevr{
+        position: fixed !important;
+        top: 0px !important;
+        right: -100px !important;
+    }
+    .spop-close {
+        position: absolute;
+        right: 10px;
+        top: 12px;
+        height: 32px;
+        width: 32px;
+        padding-top: 7px;
+        padding-right: 7px;
+        font-size: 22px;
+        font-weight: 700;
+        text-align: right;
+        line-height: .6;
+        color: #fff;
+        opacity: .5;
+    }
+    </style>
+    
+    <link rel="stylesheet" href="./fliee/home.css?t=738">
+    <link rel="stylesheet" href="./fliee/scroll.css?t=666">
+    <style>
+        .box{
+            margin-bottom: 42px;
+        }
+    </style>
+
+
+
+
+    <script src="./fliee/hm.js"></script>
+    <script src="./fliee/xiaz.js"></script>
+    <script src="./fliee/jquery.min.js"></script>
+    <script src="./fliee/cookie.min.js"></script>
+    <script src="./fliee/bootstrap.min.js"></script>
+    <script src="./fliee/nunjucks.min.js"></script>
+    <script src="./fliee/spop.min.js"></script>
+    <script src="./fliee/plupload.full.min.js" type="text/javascript"></script>
+    <script src="./fliee/qiniu.min.js" type="text/javascript"></script>
+    
+    
+    
+    
+       
+
+    
+<script src="./fliee/masonry.pkgd.min.js"></script>
+<script src="./fliee/lazyload.js"></script>
+<script src="./fliee/scroll.js"></script>
+<script src="./fliee/canvas.js"></script>
+
+
+    
+<!--<input type="hidden" id="_w_tusk"> -->
+
+<script type="text/javascript" src="chrome-extension://odphnbhiddhdpoccbialllejaajemdio/scripts/inspector.js"></script>
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e17d5f8798fe1bb86df9c1d310842aa9";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+<!--<Object id=closes type="application/x-oleobject"
+
+classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11">
+
+<Param name="Command" value="Close">
+
+</Object>
+-->
+
+<script>
+    //debug调试时跳转页面
+var element = new Image();
+Object.defineProperty(element,'id',{get:function(){window.location.href="http://www.lg3000.top"}});
+console.log(element);
+</script>
+
+<script>  
+    (function noDebuger(){
+    function testDebuger(){
+        var d=new Date();
+        debugger;
+        if(new Date()-d>10){
+            document.body.innerHTML='<div style="color:#fff">大佬，求放过~<br>请刷新页面继续浏览</div>';
+            return true;
+        }
+        return false;
+    }
+ 
+    function start(){
+        while(testDebuger()){
+            testDebuger();
+        }
+    }
+    if(!testDebuger()) {
+        window.onblur = function(){
+            setTimeout(function(){
+                start();
+            },500)
+        }
+    }
+    else{
+        start();
+    }
+ 
+})();
+
+ </script>
+
+
+<script Language=javascript>
+
+    function Click(){
+    alert('加载中...');window.event.returnValue=false;}document.oncontextmenu=Click;
+
+</script>
+
+ <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+</head>
+
+<script type="text/javascript">
+/* 鼠标特效 
+var a_idx = 0;
+jQuery(document).ready(function($) {
+  $("body").click(function(e) {
+    var a = new Array("❤", "您刚才的点击使计生局放开了"+Math.floor(Math.random()*100)+"胎政策。",  "千万不要再次点击鼠标", "好吧，我是开玩笑的", "欢迎来到壁纸湖","壁纸湖，每日人工挑选壁纸80±", "但是周末不更新哦", "悄悄告诉你" ,"往下滑你会发现一些有趣的彩蛋入口" ,"随缘赞赏请点击右下角" ,"抱图愉快，再见" , "对了~","你是不是没留意我第一句说了啥？","点击本页面100下你可再次看到我", " ", " ", " "," ", " ", " "," "," "," "," "," "," "," "," "," "," "," "," "," ", " ", " "," ", " ", " "," ", " ", " "," ",  "别点了", "别点了", "别点了", "我来了", "我刚刚是说");
+    var $i = $("<span/>").text(a[a_idx]);
+    a_idx = (a_idx + 1) % a.length;
+    var x = e.pageX,
+    y = e.pageY;
+    $i.css({
+      "z-index": 9999999999,
+      "top": y - 20,
+      "left": x,
+      "position": "absolute",
+      "font-weight": "bold",
+      "color": "#ff6651"
+    });
+    $("body").append($i);
+    $i.animate({
+      "top": y - 180,
+      "opacity": 0
+    },
+    3500,
+    function() {
+      $i.remove();
+    });
+  });
+});*/
+</script>
+
+<body οncοntextmenu="return false">
+    
+    <noscript><iframe scr=“*.htm”></iframe></noscript>
+    
+    
+    <div id="header">
+     <a href="./"><img class="logo" src="./fliee/meiye-web.png"></a>
+        
+    <span class="header-left">
+        
+            <a class="active" href="./">推荐</a>
+            
+            <a href="./MORE.html">最新</a>
+            
+            <a href="./KKK.html" style="color:#0dffff">盲盒</a>
+            
+            <a href="./JJJ.html" style="color:#FF1493">趣屋</a>
+            
+         
+        
+            
+        
+</span>
+
+ 
+
+
+        
+
+    
+    <div class="header-user">
+                
+    <!--    
+            <a href="javascript:void (0);" style="text-decoration: none;">
+                <span class="no-login">
+                    <img class="header-icon" src="./fliee/weixin.png">
+                    <span>微信登录</span>
+                </span>
+            </a>
+          
+        <a class="meiye-btn meiye-tuijian-btn primary" href="https://support.qq.com/products/295502/" target="_blank" style="font-size: 13px;
+            color: #FFFFFF;
+            letter-spacing: 0;">我要推荐</a>  
+            
+            -->
+        <img class="user-more" src="./fliee/more.png">        
+        <span class="dot"></span>
+        <div class="more-wrapper-dev">
+            <div class="more-wrapper-title">
+                还有一些小福利，期待你的打开
+                <img class="close_fixed" src="./fliee/close_fixed.png">
+            </div>
+            <div class="more-wrapper-desc">
+                <a class="more-wrapper-desc-li" href="http://me.bizihu.com/" target="_blank">
+                    <img style="width:120px;height:19px;" src="./fliee/uxmap.png">
+                    <span class="fr">自用·私人书签网址导航</span>
+                </a>
+                <a class="more-wrapper-desc-li" href="http://shaonv.lg3000.top/XP.html" target="_blank">
+                    <img style="width:120px;height:19px;" src="./fliee/uxmap.png">
+                    <span class="fr">内测·热舞盲盒全靠运气</span>
+                </a>
+               <!-- <a class="more-wrapper-desc-li" href="http://www.lg3000.top/102.html" target="_blank">
+                    <img style="width:130px;height:30px;" src="./fliee/psketch.png">
+                    <span class="fr">免费网盘资源下载</span>
+                </a>-->
+            </div>
+            
+            
+            
+            <div class="feedback-wrapper" style="color:#6898ff" >
+               
+                <div class="feedback-wrapper-txt" style="line-height:32px ">
+                    湖<br>
+                    代表着这里的页面足够纯净<br>
+                    无广告，秒保存，甚至无评论<br><br>
+                    
+                    湖<br>
+                    代表着这里的图量并不大<br>
+                    海纳百川，宇宙浩瀚，但这里不是<br>
+                    只收录自己喜欢的，不代表大众审美<br><br>
+                    
+                    但若你也恰好喜欢某张<br>
+                    我很高兴我们审美一致<br>
+                    ...</div>
+            </div>
+            
+            
+            <div class="feedback-wrapper" >
+                <a class="feedback-wrapper-tip" href="https://zhuanlan.zhihu.com/p/440318227" target="_blank">
+                    <img style="width:34px;height:30px;" src="./fliee/eyes.png">
+                </a>
+                <div class="feedback-wrapper-txt">累计被访问3<span id="busuanzi_value_site_pv"></span>次</div>
+            </div>
+            
+            
+            <div class="more-wrapper-fixed clear">
+                <span class="fl">
+                    <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2021128603号</a>
+                </span>
+                <span class="fr"><a href="https://www.zhihu.com/people/iuszmy">© 壁纸湖 2021</a></span>
+            </div>
+        </div>
+    </div>
+    <!--
+    <form class="search-form"  action="http://www.lg3000.top/" role="search">
+                    <input type="text" name="s" required="true" placeholder="输入搜索内容..." autofocus="autofocus" class="search-input">
+                    <button type="submit" class="search-btn iconfont"></button>
+                </form>
+                -->
+    <div class="header-search">
+ <!--       <a class="feedback-wrapper-tip" href="">
+        <img class="header-icon" src="./fliee/search.png">
+        </a>
+        -->
+        
+<a class="header-user-label ml20" style="font-size: 13px;
+            color: #FFFFFF;
+            letter-spacing: 0;target="_blank""><img class="header-icon" src="./fliee/wx.gif">
+			<div class="meiye-program">
+                <img width="148"  src="./fliee/wxx.png">
+            </div>    
+            </a>
+
+<a class="header-user-label ml20" href="./ZS.html"  target="_blank" style="font-size: 13px;
+            color: #FF8C00;
+            letter-spacing: 0;">感谢名单
+            </a>
+            
+            <a class="header-user-label ml20" href="./SJ.html" style="font-size: 13px;
+            color: #9441FF;
+            letter-spacing: 0;">探索暗流
+            </a>
+
+
+<!-- 
+ 收藏本站：Ctrl+D
+
+<span id="busuanzi_container_site_uv">
+  访客数<span id="busuanzi_value_site_uv"></span>人次
+</span>
+        
+        
+        href="https://support.qq.com/products/142065"-->
+    </div>
+</div>
+
+<div class="go-top-container">
+    <a class="go-top">
+        <img class="gotop-icon" src="./fliee/go-top.png">
+    </a>
+    <a class="discuss-link" href="./ZS.html"  target="_blank" >
+        <img class="discuss-icon" src="./fliee/feedback1.png">
+        
+    </a>    
+<!--    <a class="discuss-link">
+        <img class="discuss-icon" src="./fliee/feedback9.png">
+        <div class="meiye-small-program">
+            <div class="small-program-img">
+                <img src="./fliee/gzh.jpg">
+            </div>
+            <div class="small-program-title">欢迎关注 <span>立更壁纸</span></div>
+            <div class="small-program-desc">只是一个壁纸分享号</div>
+        </div>
+    </a>  
+    -->
+</div>
+
+<div class="modal fade" id="meiyepro-dialog" style="background:rgba(0,0,0,0.9)" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document" style="width: 420px;margin-top: 150px;">
+        <a href="https://mp.weixin.qq.com/s/v1QHyfupgT9nfyMljZ_fQg" target="_blank">
+            <span class="meiyepro-dialog-close" style="
+                width: 30px;
+                height: 30px;
+                right: 14px;
+                top: 17px;
+                display: inline-block;
+                position: absolute;
+                cursor: pointer;
+            "></span>
+            <img width="420" src="https://pic4.zhimg.com/80/v2-051cc6b8d2e3503e7001e956d12da72f_720w.jpeg">
+        </a>
+    </div>
+</div>
+
+<script src="./fliee/header.js"></script>
+<script>
+    function toFeedBack() {
+        var dom = document.getElementById('feed-back-btn');
+        dom.click();
+    }
+    function getOS() {
+        var sUserAgent = navigator.userAgent;
+        var isWin = (navigator.platform == "Win32") || (navigator.platform == "Windows");
+        var isMac = (navigator.platform == "Mac68K") || (navigator.platform == "MacPPC") || (navigator.platform == "Macintosh") || (navigator.platform == "MacIntel");
+        if (isMac) return "Mac";
+        var isUnix = (navigator.platform == "X11") && !isWin && !isMac;
+        if (isUnix) return "Unix";
+        var isLinux = (String(navigator.platform).indexOf("Linux") > -1);
+        if (isLinux) return "Linux";
+        if (isWin) {
+            var isWin2K = sUserAgent.indexOf("Windows NT 5.0") > -1 || sUserAgent.indexOf("Windows 2000") > -1;
+            if (isWin2K) return "Win2000";
+            var isWinXP = sUserAgent.indexOf("Windows NT 5.1") > -1 || sUserAgent.indexOf("Windows XP") > -1;
+            if (isWinXP) return "WinXP";
+            var isWin2003 = sUserAgent.indexOf("Windows NT 5.2") > -1 || sUserAgent.indexOf("Windows 2003") > -1;
+            if (isWin2003) return "Win2003";
+            var isWinVista= sUserAgent.indexOf("Windows NT 6.0") > -1 || sUserAgent.indexOf("Windows Vista") > -1;
+            if (isWinVista) return "WinVista";
+            var isWin7 = sUserAgent.indexOf("Windows NT 6.1") > -1 || sUserAgent.indexOf("Windows 7") > -1;
+            if (isWin7) return "Win7";
+            var isWin10 = sUserAgent.indexOf("Windows NT 10") > -1 || sUserAgent.indexOf("Windows 10") > -1;
+            if (isWin10) return "Win10";
+        }
+        return "other";
+    }
+    $(function() {
+        var download = cookie.get('meiyepro_download');
+        if (download) {
+            return false;
+        }
+        var showTime = localStorage.getItem("meiyepro_showtime") || 0;
+        var os = getOS();
+        if (os === 'Mac') {
+            if (parseInt(showTime) < 3) {
+                $('#meiyepro-dialog').modal('show');
+                localStorage.setItem("meiyepro_showtime", parseInt(showTime) + 1);
+            }
+        } else {
+            if (parseInt(showTime) < 1) {
+                $('#meiyepro-dialog').modal('show');
+                localStorage.setItem("meiyepro_showtime", parseInt(showTime) + 1);
+            }
+        }
+        $('.meiyepro-dialog-close').on('click', function(e) {
+            e.stopPropagation();
+            e.preventDefault();
+            $('#meiyepro-dialog').modal('hide');
+        });
+    });
+
+    $(function() {
+        
+    });
+</script>
+
+
+
+    
+
+    
+    <div id="body-container" class="sidebar-body" style="padding-left: 0px;">
+        
+       <div class="toopp"> <a href="https://zhuanlan.zhihu.com/p/440318227" target="_blank"><div class="tooop"><p>关于壁纸湖的部分资料（点击可查看全部）：</p><p>风景、动漫、城市、明星、简约、视觉、美女，每天上班热衷于挑选壁纸不能自拔的立更君，他在被炒鱿鱼前的一句话让人们趋之若鹜奔向壁纸湖...</p></div></a></div>
+        
+        <div id="image-list" style="position: relative; height: 3499.36px; width: 1878px;">   
+            
+
+        
+
+
+
+
+
+
+
+
+                        
+        </div>
+        <div class="loading-more" >
+            
+            <canvas class="loading-more-canvas" width="300" height="300" style="width: 300px; height: 300px;"></canvas>
+            
+        </div>   
+        
+        <span style="text-align: center;display:block;color:#6E6E8A">抱歉，该页面地址已变更</span>
+        
+        <br>
+        
+        <a href="./" style="text-align: center;display:block;color:rgba(124, 124, 225)">返回首页</a>
+        
+        <div class="loading-more" >    
+        </div> 
+    </div>
+
+
+    <script>
+$(function() {
+    var Home = {
+        getQuery: function (variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i=0;i<vars.length;i++) {
+                var pair = vars[i].split("=");
+                if(pair[0] == variable){return pair[1];}
+            }
+            return (false);
+        },
+        init: function() {
+            this.initMasonry();
+            setTimeout(function() {
+                Home.initMasonry();
+            }, 600);          
+            this.initLazyLoad();
+            this.masonryWidth();
+            this.initEvent();
+            if (location.pathname == '/') {
+                this.initLoadingMore();
+            } else {
+                this.initLoadingMoreCanvas();
+            }
+        },
+        initMasonry: function() {
+            $('#image-list').masonry({
+                itemSelector: '.box',
+                gutter: 26,
+                isAnimated: true,
+                percentPosition: true
+            });
+        },
+        initLazyLoad: function() {
+            $("img.lazyload").lazyload({
+                effect:"",
+                load: Home.initMasonry,
+                threshold: 20,
+                effect_params: 'fast'
+            });
+        },
+        masonryWidth: function() {
+            var $browser = document.body.clientWidth - 0;
+            var $boxWidth = 332;         // 盒子宽度
+            var $boxSpacing = 26;      //盒子与盒子之间的间距
+            if ($browser <= 336 )  {
+                $("#image-list").css('width', 332);
+                $(".loading-more").css('width', 332);
+            }else{
+                $num = ($browser-$boxWidth) / ($boxWidth + $boxSpacing );
+                $n = parseInt($num);
+                $masonryWidth = $n * ($boxWidth + $boxSpacing) + $boxWidth;
+                $("#image-list").css('width', $masonryWidth);
+                $(".loading-more").css('width', $masonryWidth);
+            }
+        },
+        initEvent: function() {            
+            // 浏览器窗口变动
+            window.onresize = Home.masonryWidth;
+        },
+        initLoadingMore: function() {
+            var loading = false;
+            $(window).scroll(function() {
+                var scrollTop = $(window).scrollTop();
+                var height = $('#image-list').height();
+                var windowHeight = $(window).height();
+                if (scrollTop >= height - windowHeight + 100) {
+                    if (!loading) {
+                        loading = true;
+                        $('.loading-more').css('opacity', 1);
+                        $.ajax({
+                            type : "GET",
+                            url : "/",
+                            dataType: 'json',
+                            success : function(result) {
+                                var list = result.data;
+                                nunjucks.configure('/public/view/home', { autoescape: true });
+                                var str = nunjucks.render('list.html', { list: list });
+                                //let ad = '<div class="box" style="width:332px;height:400px;"><ins class="adsbygoogle" style="display:inline-block;width:332px;height:400px" data-ad-client="ca-pub-9196458143056886" data-ad-slot="9247751478"></ins></div>'
+                                //str = ad + str;
+                                str = $(str);
+                                $('#image-list').append(str);
+                                $('#image-list').masonry('appended', str, true);
+                                Home.initLazyLoad();
+                                loading = false;
+                            },
+                            error : function(e){
+                                console.log(e.status);
+                                console.log(e.responseText);
+                            }
+                        });
+                    }
+                }
+            });
+        },
+        initLoadingMoreCanvas: function() {
+            var loading = false;
+            var self = this;
+            var pn = self.getQuery('pn') || 1;
+            $(window).scroll(function() {
+                var scrollTop = $(window).scrollTop();
+                var height = $('#image-list').height();
+                var windowHeight = $(window).height();
+                if (scrollTop >= height - windowHeight + 100) {
+                    if (!loading) {
+                        loading = true;
+                        $('.loading-more').css('opacity', 1);                        
+                        pn++;
+                        var total = 8029;
+                        var totalPage = Math.ceil(total/50);
+                        if (pn > totalPage) {
+                            $('.loading-more').addClass('success');
+                            return;
+                        }
+                        $.ajax({
+                            type : "GET",
+                            url : "/web/canvas",
+                            data: {
+                                pn: pn,
+                                id: self.getQuery('id')
+                            },
+                            dataType: 'json',
+                            success : function(result) {
+                                var list = result.data;
+                                nunjucks.configure('/public/view/home', { autoescape: true });
+                                var str = nunjucks.render('list.html', { list: list });
+                                //let ad = '<div class="box" style="width:332px;height:400px;"><ins class="adsbygoogle" style="display:inline-block;width:332px;height:400px" data-ad-client="ca-pub-9196458143056886" data-ad-slot="9247751478"></ins></div>'
+                                //str = ad + str;
+                                str = $(str);
+                                $('#image-list').append(str);
+                                $('#image-list').masonry('appended', str,true);
+                                Home.initLazyLoad();
+                                loading = false;
+                            },
+                            error : function(e){
+                                console.log(e.status);
+                                console.log(e.responseText);
+                            }
+                        });
+                    }
+                }
+            });
+        }
+    };
+
+    Home.init();
+    
+})
+</script>
+        
+
+</body></html>
